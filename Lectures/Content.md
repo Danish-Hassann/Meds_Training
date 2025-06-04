@@ -40,16 +40,16 @@ Transistor density (transistors per chip area) increases exponentially over time
 
 ## Boolean Algebra: Useful Laws
 
-| **Law**                      | **Dual Version 1**          | **Dual Version 2**              |
-| ---------------------------- | --------------------------- | ------------------------------- |
-| **Operations with 0 and 1s** | A + 0 = A                   | A · 1 = A                       |
-|                              | A + 1 = 1                   | A · 0 = 0                       |
-| **Idempotent Law**           | A + A = A                   | A · A = A                       |
-| **Involution Law**           | (A')' = A                   | —                               |
-| **Laws of Complementarity**  | A + A' = 1                  | A · A' = 0                      |
-| **Commutative Law**          | A + B = B + A               | A · B = B · A                   |
-| **Associative Law**          | A + (B + C) = (A + B) + C   | A · (B · C) = (A · B) · C       |
-| **Distributive Law**         | A · (B + C) = A · B + A · C | A + (B · C) = (A + B) · (A + C) |
+| **Law**                      | **OR Operation ( + )**            | **AND Operation ( · )**               |
+| --------------------------- | --------------------------------- | ------------------------------------- |
+| **Operations with 0 and 1s** | A + 0 = A                         | A · 1 = A                             |
+|                              | A + 1 = 1                         | A · 0 = 0                             |
+| **Idempotent Law**           | A + A = A                         | A · A = A                             |
+| **Involution Law**           | (A')' = A                         | —                                     |
+| **Laws of Complementarity**  | A + A' = 1                        | A · A' = 0                            |
+| **Commutative Law**          | A + B = B + A                     | A · B = B · A                         |
+| **Associative Law**          | A + (B + C) = (A + B) + C         | A · (B · C) = (A · B) · C             |
+| **Distributive Law**         | A · (B + C) = A · B + A · C       | A + (B · C) = (A + B) · (A + C)       |
 
 ## Standardized Function Representations:
 
