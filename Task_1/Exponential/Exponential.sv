@@ -1,6 +1,6 @@
 module Exponential (
     input logic [15:0] x,   
-    output logic [15:0] result
+    output logic [31:0] result
 );
 
     logic [31:0] term;     
@@ -33,7 +33,7 @@ module Exponential (
             sum += term;
         end
 
-        result = sum[15:0];
+        result = sum;
     end
 
 endmodule
