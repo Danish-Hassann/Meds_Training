@@ -11,9 +11,9 @@ _start:
     la t0, result            # Store result into memory
     sw a0, 0(t0)
 
-    j write_tohost           # Halt simulation
+    j write_tohost           
 
-# Recursive factorial (RISC-V32)
+# Recursive factorial 
 factorial:
     addi sp, sp, -8          # Allocate 8 bytes on stack
     sw ra, 4(sp)             # Save return address
